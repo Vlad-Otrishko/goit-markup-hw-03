@@ -112,6 +112,7 @@ body {
 
 .header {
   border-bottom-width: 1px;
+  border-bottom-style: solid;
   border-bottom-color: var(--border-color);
 }
 .header .logo {
@@ -356,17 +357,19 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
 .filter-list {
   display: flex;
   margin-bottom: 34px;
   justify-content: center;
 }
+
 .filter-item:not(:last-child) {
   margin-right: 8px;
 }
-.galery .modal-btn {
+.galery .filter-item {
   display: block;
-  padding-bottom: 16;
+  padding-bottom: 16px;
 }
 
 .galery-list {
